@@ -32,7 +32,6 @@ for.chat.command.forestry.plugins.info.desc=- %s : Information sur un module sp�
 for.chat.command.forestry.plugins.info.help=Affiche les informations sur un module spécifique
 for.chat.command.forestry.plugins.info.format=Format: /%s <nom-module>
 
-
 for.chat.help=Tapez '%s' pour l'aide.
 for.chat.plugins.error=Pas d'information sur le module %s.
 for.chat.version=Forestry %1$s pour Minecraft %2$s (Dernier: %3$s).
@@ -100,9 +99,9 @@ tile.forestry.fluid.glass.name=Verre liquide
 tile.forestry.fluid.for.honey.name=Miel
 tile.forestry.fluid.ice.name=Glace pilée
 tile.forestry.fluid.juice.name=Jus de fruits
+tile.forestry.fluid.short.mead.name=Petit hydromel
 tile.forestry.fluid.milk.name=Lait
 tile.forestry.fluid.seed.oil.name=Huile de graines
-tile.forestry.fluid.short.mead.name=Petit hydromel
 
 for.gui.access=Accès
 for.gui.active=Actif
@@ -119,15 +118,16 @@ for.gui.area=Région
 for.gui.arid=Aride
 for.gui.beach=Plage
 
+for.gui.portablealyzer=Analyseur génétique portable 
+for.gui.portablealyzer.help=Fournissez des abeilles, des arbres, des papillons ou d'autre individu et alimentez en miel ou en miellat comme tétine.
+
 for.gui.beealyzer.artificial=Origine artificielle
 for.gui.beealyzer.behaviour=Comportement
 for.gui.beealyzer.generations=%s Générations en captivitée
-for.gui.beealyzer.help=Fournissez l'abeille et  le miel ou la miellat comme tétine.
 for.gui.beealyzer.mutations=Mutations possibles
 for.gui.beealyzer.natural=Origine naturelle
 for.gui.beealyzer.produce=Production possible
 for.gui.beealyzer.specialty=Spécialité possible
-for.gui.beealyzer=Analyseur d'abeilles
 
 for.gui.blank=Vide
 for.gui.cave=Troglodite
@@ -145,6 +145,10 @@ for.gui.drones=Ouvriers
 for.gui.effect=Effet
 for.gui.empty=Vide
 for.gui.emptysocket=Emplacement vide
+for.gui.empty.slot.camouflage.multiblock.default=Emplacement de camouflage multibloc par défaut
+for.gui.empty.slot.camouflage.multiblock.glass=Emplacement de camouflage multibloc en verre
+for.gui.empty.slot.camouflage.multiblock.door=Porte d'emplacement de camouflage multibloc 
+for.gui.empty.slot.camouflage=Emplacement de camouflage
 for.gui.socket.remove=Retirable avec le fer à souder
 for.gui.energy=Énergie
 for.gui.environment=Environment
@@ -156,7 +160,6 @@ for.gui.flowers=Fleurs
 for.gui.flyer=Volante
 for.gui.flyer.tooltip=Volante
 for.gui.general=Général
-forestry.allele.gigantic=Gigantesque
 for.gui.heat=Température
 for.gui.hellish=Infernal
 for.gui.hot=Chaud
@@ -173,6 +176,7 @@ for.gui.normal=Normal
 
 for.gui.escritoire.probe=Examine les spécimens
 for.gui.escritoire.instructions=Placez un examplaire génétique au centre pour débuter. Placez en plus dans les emplacements de gauche et examinez-les pour aider.
+for.gui.escritoire.attempt.number=Tentative No. %s
 
 for.gui.escritoire.notes.level1.1=J'ai trouvé un spécimen curieux durant mes voyages.
 for.gui.escritoire.notes.level1.2=Cet étrange camarade a besoin de plus d'investiguation.
@@ -206,7 +210,7 @@ for.gui.escritoire.notes.failure.1=Tout est perdu.
 for.gui.escritoire.notes.failure.2=J'ai balancé mes notes au feu.
 for.gui.escritoire.notes.failure.3=Pourquoi ? J'avais fait de tels progrès avant cela...
 for.gui.escritoire.notes.failure.4=Echec. Encore.
-for.gui.escritoire.notes.failure.5=Mon dieux...
+for.gui.escritoire.notes.failure.5=Mon dieu...
 
 for.gui.mail.foreveryattached=Cordialement
 for.gui.mail.from=De
@@ -214,9 +218,12 @@ for.gui.mail.nametrader=Nommez ce commerce
 for.gui.mail.nothing.to.trade=Ce commerce n'a rien à vendre.
 for.gui.mail.no.trader=Aucun commerce avec ce nom.
 for.gui.mail.pleasesend=Merci d'envoyer
+for.gui.mail.order.attached=Veuillez trouver votre commande ci-jointe.
+for.gui.mail.order.filled.one=1 commande de %SENDER a été remplie.
+for.gui.mail.order.filled.multiple=%COUNT commandes de %SENDER ont été remplies.
 for.gui.mail.to=À
-for.gui.mail.receive=Recevoir
-for.gui.mail.send=Envoyer
+for.gui.mail.receive=Recu
+for.gui.mail.send=Envoyé
 
 for.gui.maxenergy=Énergie maximum
 for.gui.maxenergyreceive=Entrée maximum 
@@ -254,6 +261,7 @@ for.gui.solder.east=E
 for.gui.solder.west=O
 
 forestry.allele.normal=Normal
+forestry.allele.gigantic=Gigantesque
 forestry.allele.average=Moyenne
 
 forestry.allele.slowest=La plus lente
@@ -261,7 +269,8 @@ forestry.allele.slower=Très lente
 forestry.allele.slow=Lente
 forestry.allele.fast=Rapide
 forestry.allele.faster=Très rapide
-forestry.allele.fastest=la plus rapide
+forestry.allele.fastest=La plus rapide
+forestry.allele.maximum=Maximum
 
 forestry.allele.smallest=La plus petite
 forestry.allele.smaller=Très petite
@@ -315,11 +324,14 @@ for.gui.temperature=Température
 for.gui.tolerance=Tolérance
 for.gui.temptol=Tolérance temp.
 for.gui.tooltip.tmi=Tapez Maj pour les détails
+for.gui.tooltip.liquid.amount=%,d / %,d mB
 for.gui.triple=Triple
 for.gui.unknown=Génome inconnu
 for.gui.warm=Tempéré
 for.gui.water=Eau
 for.gui.worker=Ouvrier
+
+for.gui.camouflage_spray_can=Vaporisateur de camouflage
 
 for.hints.apiaristsuit.desc=La combinaison complete d'apicuteur vous protège de tous les effets négatifs provenant des abeilles.
 for.hints.apiaristsuit.tag=Combinaison d'apiculteur !
@@ -436,8 +448,6 @@ for.trigger.noFrames=Pas de cadres
 
 for.yes=Oui
 
-item.for.adventurer_bag.name=Sac à dos de l'aventurier
-item.for.adventurer_bagT2.name=Sac à dos tissé de l'aventurier
 item.for.ambrosia.name=Ambroisie
 item.for.apatite.name=Apatite
 
@@ -448,8 +458,8 @@ item.for.apiarist_helmet.name=Chapeau de l'apiculteur
 item.for.apiarist_legs.name=Pantalon de l'apiculteur
 
 item.for.ash.name=Cendres
+tile.for.pile_ash.name=Pile de cendres
 
-item.for.beealyzer.name=Analyseur d'abeilles
 item.for.habitat_locator.name=Localisateur d'habitat
 
 item.for.cart.beehouse.name=Wagonnet avec ruche
@@ -484,48 +494,44 @@ item.for.broken_bronze_pickaxe.name=Pioche brisée
 item.for.broken_bronze_shovel.name=Pelle brisée
 item.for.bronze_pickaxe.name=Pioche du survivaliste
 item.for.bronze_shovel.name=Pelle du survivaliste
-item.for.builder_bag.name=Sac à dos du maçon
-item.for.builder_bagT2.name=Sac à dos tissé du maçon
 
 item.for.can.empty.name=Cannette
 item.for.can.grammar=Cannette de %s
-item.for.can.bio.ethanol.name=Cannette de biocarburant
-item.for.can.biomass.name=Cannette de biomasse
-item.for.can.fuel.name=Cannette de carburant
-item.for.can.for.honey.name=Cannette de miel
-item.for.can.ice.name=Cannette de glace
-item.for.can.juice.name=Cannette de jus
-item.for.can.lava.name=Cannette de lave
-item.for.can.oil.name=Cannette de pétrole
-item.for.can.seed.oil.name=Cannette d'huile végétale
+item.for.can.seed.oil.name=Cannette d'huile végétale ## FRENCH SPECIFIC GRAMMAR
 item.for.carton.name=Carton
-
+item.for.can.water.name=Cannette d'eau ## FRENCH SPECIFIC GRAMMAR
 item.for.circuitboard.basic.name=Circuit imprimé de base
 item.for.circuitboard.enhanced.name=Circuit imprimé moyen
 item.for.circuitboard.intricate.name=Circuit imprimé complexe
 item.for.circuitboard.refined.name=Circuit imprimé étendu
+item.for.circuitboard.tooltip.singular=Adapte %s tube électronique.
+item.for.circuitboard.tooltip.plural=Adapte %s tubes électroniques.
 
 item.for.crafting_material.dissipation_charge.name=Dissipation de charge
+item.for.crafting_material.dissipation_charge.tooltip=Utilisé sur le faiseur de pluie pour arreter la pluie.
 item.for.crafting_material.ice_shard.name=Éclat de glace
 item.for.crafting_material.pulsating_dust.name=Poussière vibrante
 item.for.crafting_material.pulsating_mesh.name=Tissu vibrant
 item.for.crafting_material.scented_paneling.name=Lambris parfumé
+item.for.crafting_material.camouflaged_paneling.name=Lambris camouflé
 item.for.crafting_material.silk_wisp.name=Fil de soie
 item.for.crafting_material.woven_silk.name=Tissu en soie
 
 item.for.crate.name=Cageot
 item.for.decaying_wheat.name=Blé décomposé
-item.for.digger_bag.name=Sac à dos de l'excavateur
-item.for.digger_bagT2.name=Sac à dos tissé de l'excavateur
 
 item.for.fertilizer_bio.name=Compost
 item.for.fertilizer_compound.name=Engrais
-item.for.forester_bag.name=Sac à dos du forestier
-item.for.forester_bagT2.name=Sac à dos tissé du forestier
 
 item.for.frame_impregnated.name=Cadre imperméabilisé
 item.for.frame_proven.name=Cadre protégé
 item.for.frame_untreated.name=Cadre non traité
+
+item.for.durability=Durabilité: %,d
+item.for.uses=Utilisations: %,d
+
+item.for.bee.modifier.production=Production: %.2fx
+item.for.bee.modifier.genetic.decay=Décrépitude génétique: %.2fx
 
 item.for.fruit.cherry.name=Cerise
 item.for.fruit.chestnut.name=Châtaigne
@@ -543,14 +549,15 @@ item.for.hardened_machine.name=Boitier renforcé
 
 item.for.honeydew.name=Miellat
 
+item.for.portable_alyzer.name=Analyseur portable
+item.for.portable_alyzer.tooltip=Analyseur génétique portable pour les abeilles, les arbres, et les papillons.
+
 item.for.honey_drop.charged.name=Goutte de miel chargée
 item.for.honey_drop.honey.name=Goutte de miel
 item.for.honey_drop.omega.name=Goutte d'Oméga
 item.for.honeyed_slice.name=Pain au miel
 
 item.for.honey_pot.name=Pot de miel
-item.for.hunter_bag.name=Sac à dos du chasseur
-item.for.hunter_bagT2.name=Sac à dos tissé du chasseur
 
 item.for.impregnated_casing.name=Revêtement imperméabilisé
 item.for.imprinter.name=Imprimeur
@@ -561,16 +568,15 @@ item.for.ingot_copper.name=Lingot de cuivre
 item.for.ingot_tin.name=Lingot d'étain
 
 item.for.iodine_capsule.name=Capsule d'iode
+item.for.iodine_capsule.tooltip=Utilisé par le faiseur de pluie pour faire pleuvoir.
 item.for.kit_pickaxe.name=Kit de pioche
 item.for.kit_shovel.name=Kit de pelle
 item.for.letters.name=Lettre
 
-item.for.miner_bag.name=Sac à dos du mineur
-item.for.miner_bagT2.name=Sac à dos tissé du mineur
-
 item.for.mouldy_wheat.name=Blé moisi
 item.for.mulch.name=Paillis
 item.for.naturalist_helmet.name=Jumelles
+item.for.naturalist_helmet.tooltip=Portez pour voir les feuilles polinisées et les erreurs sur les multiblocs.
 item.for.oak_stick.name=Bâton imperméabilisé
 item.for.peat.name=Tourbe
 item.for.phosphor.name=Phosphore
